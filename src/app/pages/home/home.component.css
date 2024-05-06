@@ -1,0 +1,7 @@
+.home-page {
+  padding-top: 50px;
+}
+
+&.mat-toolbar.mat-toolbar-single-row {
+  color: orange !important;
+}

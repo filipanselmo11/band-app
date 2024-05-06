@@ -1,0 +1,31 @@
+.slipknot-page {
+  padding-top: 50px;
+}
+
+:host ::ng-deep app-card
+.mat-mdc-card.mdc-card.card {
+  background-color: #161a1d !important;
+}
+
+:host ::ng-deep app-card
+.mat-mdc-card.mdc-card.card
+.mat-mdc-card-header
+.mat-mdc-card-header-text
+.mat-mdc-card-title {
+  color: red !important;
+}
+
+:host ::ng-deep app-card
+.mat-mdc-card.mdc-card.card
+.mat-mdc-card-header
+.mat-mdc-card-header-text
+.mat-mdc-card-subtitle {
+  color: #8d99ae !important;
+}
+
+:host ::ng-deep app-card
+.mat-mdc-card.mdc-card.card
+.mat-mdc-card-actions.mdc-card__actions
+.mdc-button.mat-mdc-button.mat-unthemed.mat-mdc-button-base{
+  color: #9d0208 !important;
+}
