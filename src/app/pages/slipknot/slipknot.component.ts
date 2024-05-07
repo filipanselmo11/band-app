@@ -27,5 +27,20 @@ export class SlipknotComponent {
   shawnName = 'Shawn Crahan';
   shawnPosition = 'Percussionista 1';
   shawnImage = 'https://i.pinimg.com/originals/08/58/3e/08583ee235efe3a5b9384f74b95fcb20.jpg';
+  mickName = 'Mick Thomson';
+  mickPosition = 'Guitarrista 2';
+  mickImage = 'https://i.pinimg.com/originals/73/2f/77/732f7739ccdcdc2785dc812e611607d9.jpg';
+  jayName = 'Jay Wenberg';
+  jayPosition = 'Baterista';
+  jayImage = 'https://i.pinimg.com/originals/70/f8/cb/70f8cbcaeea5cee9ae3380da78041923.jpg';
+  alessandroName = 'Alessandro Venturela';
+  alessandroPosition = 'Baixista';
+  alessandroImage = 'https://i.pinimg.com/originals/29/95/29/2995292e17f26fdd1ff471e14d8b0ed7.jpg';
+  craigName = 'Craig Jones';
+  craigPosition = 'Sampler';
+  craigImage = 'https://i.pinimg.com/originals/08/d9/6a/08d96a7432067626f218e7a9882dae94.jpg';
+  tortillaName = 'Michael(Tortilla Man)';
+  tortillaPosition = 'Percussionista 2';
+  tortillaImage = 'https://i.pinimg.com/originals/38/37/f9/3837f96f8266dcbfdf28db56de6e6512.jpg';
 
 }

@@ -2,6 +2,11 @@
   padding-top: 50px;
 }
 
+:host ::ng-deep app-toolbar img {
+  width: 144px !important;
+  margin: auto;
+}
+
 :host ::ng-deep app-card
 .mat-mdc-card.mdc-card.card {
   background-color: #161a1d !important;
