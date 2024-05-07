@@ -7,6 +7,12 @@
   margin: auto;
 }
 
+:host ::ng-deep app-toolbar .mat-toolbar.mat-toolbar-single-row {
+  background-color: #230101 !important;
+}
+
+
+
 :host ::ng-deep app-card
 .mat-mdc-card.mdc-card.card {
   background-color: #161a1d !important;

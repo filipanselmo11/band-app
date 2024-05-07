@@ -1,1 +1,37 @@
-<p>korn works!</p>
+<app-toolbar>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/KornBand_Logo.jpg" alt="Logo do Korn">
+</app-toolbar>
+<div class="korn-page">
+  <mat-grid-list cols="3" rowHeight="2:3">
+    <mat-grid-tile>
+      <app-card
+        name="{{jonanthanName}}"
+        position="{{jonanthanPosition}}"
+        image="{{jonanthanImage}}"></app-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <app-card
+        name="{{fieldName}}"
+        position="{{fieldPosition}}"
+        image="{{fieldImage}}"></app-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <app-card
+        name="{{rayName}}"
+        position="{{rayPosition}}"
+        image="{{rayImage}}"></app-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <app-card
+        name="{{bryanName}}"
+        position="{{bryanPosition}}"
+        image="{{bryanImage}}"></app-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <app-card
+        name="{{jamesName}}"
+        position="{{jamesPosition}}"
+        image="{{jamesImage}}"></app-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
