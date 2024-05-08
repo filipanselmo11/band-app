@@ -2,13 +2,15 @@ import { Component } from '@angular/core';
 import { ToolbarComponent } from '../../components/toolbar/toolbar.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { CardComponent } from '../../components/card/card.component';
+import { FooterComponent } from '../../components/footer/footer.component';
 @Component({
   selector: 'app-slipknot',
   standalone: true,
   imports: [
     ToolbarComponent,
     MatGridListModule,
-    CardComponent
+    CardComponent,
+    FooterComponent
   ],
   templateUrl: './slipknot.component.html',
   styleUrl: './slipknot.component.css'

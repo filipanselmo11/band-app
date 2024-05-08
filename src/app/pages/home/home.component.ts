@@ -4,11 +4,12 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatGridListModule } from '@angular/material/grid-list';
 
 import { Router } from '@angular/router';
+import { FooterComponent } from '../../components/footer/footer.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [ToolbarComponent, MatButtonModule, MatGridListModule],
+  imports: [ToolbarComponent, MatButtonModule, MatGridListModule, FooterComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
