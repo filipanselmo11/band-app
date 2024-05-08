@@ -33,4 +33,14 @@
   color: #FBFDE8 !important;
 }
 
+:host ::ng-deep app-footer
+.footer {
+  position: absolute !important;
+  margin-bottom: -50em !important;
+  width: 100% !important;
+  text-align: center !important;
+  background-color: black !important;
+  color: #FEFEFE !important;
+}
+
 

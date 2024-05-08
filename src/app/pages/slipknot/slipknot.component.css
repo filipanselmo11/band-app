@@ -40,3 +40,13 @@
 .mdc-button.mat-mdc-button.mat-unthemed.mat-mdc-button-base{
   color: #9d0208 !important;
 }
+
+:host ::ng-deep app-footer
+.footer {
+  position: absolute !important;
+  margin-bottom: -91em !important;
+  width: 100% !important;
+  text-align: center !important;
+  background-color: #230101 !important;
+  color: red !important;
+}

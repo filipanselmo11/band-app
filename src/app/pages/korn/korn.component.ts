@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { ToolbarComponent } from '../../components/toolbar/toolbar.component';
 import { CardComponent } from '../../components/card/card.component';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { FooterComponent } from '../../components/footer/footer.component';
 
 @Component({
   selector: 'app-korn',
   standalone: true,
-  imports: [ToolbarComponent, CardComponent, MatGridListModule],
+  imports: [ToolbarComponent, CardComponent, MatGridListModule, FooterComponent],
   templateUrl: './korn.component.html',
   styleUrl: './korn.component.css'
 })
