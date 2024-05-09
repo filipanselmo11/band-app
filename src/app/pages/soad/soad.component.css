@@ -1,0 +1,20 @@
+:host ::ng-deep app-toolbar
+.mat-toolbar.mat-toolbar-single-row {
+  background-color: #000 !important;
+}
+
+:host ::ng-deep app-toolbar img {
+  height: 62px !important;
+  margin: auto !important;
+  width: 212px !important;
+}
+
+:host ::ng-deep app-footer
+.footer {
+  position: absolute !important;
+  margin-bottom: -50em !important;
+  width: 100% !important;
+  text-align: center !important;
+  background-color: #424242 !important;
+  color: #C6C6C6 !important;
+}

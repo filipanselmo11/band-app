@@ -26,5 +26,5 @@ export class KornComponent {
   bryanImage = 'https://i.pinimg.com/originals/6c/46/65/6c4665d32467f243829f3841cc8bf5ad.jpg';
   jamesName = 'James Munky Shaffer';
   jamesPosition = 'Guitarrista 2';
-  jamesImage = 'https://i.pinimg.com/originals/e7/ff/66/e7ff664b4cf8c3f4acf30e025aa8045b.jpg';
+  jamesImage = 'https://i.pinimg.com/originals/6b/8e/7c/6b8e7cc5a19ed16d8c1a092ce50d9c6c.jpg';
 }

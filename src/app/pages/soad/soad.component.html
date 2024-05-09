@@ -1,1 +1,38 @@
-<p>soad works!</p>
+<app-toolbar>
+  <img src="https://i.pinimg.com/originals/b6/bd/2c/b6bd2c6ad1b01c7d6103a7368139c42a.jpg" alt="SOAD logo">
+</app-toolbar>
+
+<div class="soad-page">
+  <mat-grid-list cols="3" rowHeight="2:3">
+    <mat-grid-tile>
+      <app-card
+        name="{{serjName}}"
+        position="{{serjPosition}}"
+        image="{{serjImage}}">
+      </app-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <app-card
+        name="{{jonhName}}"
+        position="{{jonhPosition}}"
+        image="{{jonhImage}}">
+      </app-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <app-card
+        name="{{shavoName}}"
+        position="{{shavoPosition}}"
+        image="{{shavoImage}}">
+      </app-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <app-card
+        name="{{daronName}}"
+        position="{{daronPosition}}"
+        image="{{daronImage}}">
+      </app-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
+
+<app-footer></app-footer>

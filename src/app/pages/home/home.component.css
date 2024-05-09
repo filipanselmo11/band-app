@@ -1,7 +1,19 @@
+:host ::ng-deep app-toolbar
+.mat-toolbar.mat-toolbar-single-row {
+  background-color: #004F4F !important;
+  color: #00FBFB !important;
+}
 .home-page {
-  padding-top: 50px;
+  padding-top: 50px !important;
 }
 
-&.mat-toolbar.mat-toolbar-single-row {
-  color: orange !important;
+.mdc-button.mdc-button--unelevated.mat-mdc-unelevated-button.mat-unthemed.mat-mdc-button-base {
+  background-color: #162B2B !important;
+  color: #00FBFB !important;
+}
+
+:host ::ng-deep app-footer
+.footer {
+  background-color: #004F4F !important;
+  color: #00FBFB !important;
 }
