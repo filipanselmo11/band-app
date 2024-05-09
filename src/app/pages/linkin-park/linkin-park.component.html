@@ -1,1 +1,52 @@
-<p>linkin-park works!</p>
+<app-toolbar>
+  <img src="https://cdn.freelogovectors.net/wp-content/uploads/2023/09/linkin-park-logo-02_freelogovectors.net_.png" alt="Logo Linkin Park">
+</app-toolbar>
+
+<div class="linkin-park__page">
+  <mat-grid-list cols="3" rowHeight="2:3">
+    <mat-grid-tile>
+      <app-card
+        name="{{chesterName}}"
+        position="{{chesterPosition}}"
+        image="{{chesterImage}}">
+      </app-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <app-card
+        name="{{mikeName}}"
+        position="{{mikePosition}}"
+        image="{{mikeImage}}">
+      </app-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <app-card
+        name="{{davidName}}"
+        position="{{davidPosition}}"
+        image="{{davidImage}}">
+      </app-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <app-card
+        name="{{joeName}}"
+        position="{{joePosition}}"
+        image="{{joeImage}}">
+      </app-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <app-card
+        name="{{bradName}}"
+        position="{{bradPosition}}"
+        image="{{bradImage}}">
+      </app-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <app-card
+        name="{{robName}}"
+        position="{{robPosition}}"
+        image="{{robImage}}">
+      </app-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
+
+<app-footer></app-footer>

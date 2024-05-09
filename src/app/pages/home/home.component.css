@@ -1,8 +1,8 @@
-:host ::ng-deep app-toolbar
-.mat-toolbar.mat-toolbar-single-row {
+:host ::ng-deep app-toolbar .mat-toolbar.mat-toolbar-single-row {
   background-color: #004F4F !important;
   color: #00FBFB !important;
 }
+
 .home-page {
   padding-top: 50px !important;
 }
@@ -12,8 +12,7 @@
   color: #00FBFB !important;
 }
 
-:host ::ng-deep app-footer
-.footer {
+:host ::ng-deep app-footer .footer {
   background-color: #004F4F !important;
   color: #00FBFB !important;
 }

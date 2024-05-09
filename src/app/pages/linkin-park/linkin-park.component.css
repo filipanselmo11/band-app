@@ -1,0 +1,43 @@
+:host ::ng-deep app-toolbar
+.mat-toolbar.mat-toolbar-single-row {
+  background-color: #085065 !important;
+}
+
+:host ::ng-deep app-toolbar
+.mat-toolbar.mat-toolbar-single-row img {
+  height: 98px !important;
+  margin: 1px 655px -21px !important;
+}
+
+
+:host ::ng-deep app-card
+.mat-mdc-card.mdc-card.card {
+  background-color: #085065 !important;
+}
+
+:host ::ng-deep app-card
+.mat-mdc-card.mdc-card.card
+.mat-mdc-card-header
+.mat-mdc-card-header-text
+.mat-mdc-card-title {
+  color: #000000 !important;
+}
+
+:host ::ng-deep app-card
+.mat-mdc-card.mdc-card.card
+.mat-mdc-card-header
+.mat-mdc-card-header-text
+.mat-mdc-card-subtitle {
+  color: #07aaaa9d !important;
+}
+
+:host ::ng-deep app-footer
+.footer {
+  position: absolute !important;
+  margin-bottom: -49em !important;
+  width: 100% !important;
+  text-align: center !important;
+  background-color: #085065 !important;
+  color: #000000 !important;
+}
+
